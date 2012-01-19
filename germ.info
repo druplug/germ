@@ -26,8 +26,17 @@ dependencies[] = toolbar
 dependencies[] = user
 
 ; contrib modules
-dependencies[] = features
 dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = features
+dependencies[] = jeditable
 dependencies[] = pathauto
+dependencies[] = references
+dependencies[] = simplify
 dependencies[] = strongarm
 dependencies[] = views
+dependencies[] = wysiwyg
+
+; custom
+dependencies[] = wysiwyg_features
+
