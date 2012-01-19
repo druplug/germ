@@ -1,0 +1,33 @@
+name = Germ
+description = Ultra simple bug tracker in Drupal 7.
+version = 1.0
+core = 7.x
+
+; standard modules
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = toolbar
+dependencies[] = user
+
+; contrib modules
+dependencies[] = features
+dependencies[] = date
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = views
