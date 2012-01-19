@@ -9,7 +9,7 @@ projects[] = drupal
 
 
 ; Setup the Germ profile from this make file stub.
-projects[bloggio][type] = "profile"
-projects[bloggio][download][type] = git
-projects[bloggio][download][url] = https://github.com/druplug/germ.git
+projects[germ][type] = "profile"
+projects[germ][download][type] = git
+projects[germ][download][url] = https://github.com/druplug/germ.git
 
