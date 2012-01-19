@@ -3,6 +3,8 @@
 core = 7.x
 api = 2
 
+projects[ctools][subdir] = contrib
+projects[ctools][version] = 1.0-rc1
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.0-rc1
