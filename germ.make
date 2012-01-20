@@ -3,6 +3,9 @@
 core = 7.x
 api = 2
 
+projects[auto_nodetitle][subdir] = contrib
+projects[auto_nodetitle][version] = 1.0
+
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
 
