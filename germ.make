@@ -21,11 +21,17 @@ projects[pathauto][version] = 1.0
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
 
+projects[serial][subdir] = contrib
+projects[serial][version] = 1.2 
+
 projects[simplify][subdir] = contrib
 projects[simplify][version] = 2.1 
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta5
+
+projects[token][subdir] = contrib
+projects[token][version] = 1.0-beta7
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.1
@@ -45,7 +51,7 @@ projects[wysiwyg_features][subdir] = custom
 projects[wysiwyg_features][download][url] = git://github.com/druplug/wysiwyg_features.git
 
 ; Libraries
-ibraries[ckeditor][download][type] = get
+libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip
 libraries[ckeditor][download][directory_name] = ckeditor
 libraries[ckeditor][download][destination] = libraries
