@@ -27,8 +27,10 @@ projects[references][version] = 2.0
 projects[serial][subdir] = contrib
 projects[serial][version] = 1.2 
 
-projects[simplify][subdir] = contrib
-projects[simplify][version] = 2.1 
+projects[simplify][type] = module
+projects[simplify][download][type] = "git"
+projects[simplify][subdir] = "contrib"
+projects[simplify][download][url] = git://github.com/lakshminp/simplify.git
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta5
