@@ -45,6 +45,11 @@ projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
 ; Custom
+projects[germ_core][type] = module
+projects[germ_core][download][type] = "git"
+projects[germ_core][subdir] = "custom"
+projects[germ_core][download][url] = git://github.com/druplug/germ_core.git
+
 projects[germ_features][type] = module
 projects[germ_features][download][type] = "git"
 projects[germ_features][subdir] = "custom"

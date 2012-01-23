@@ -43,6 +43,7 @@ dependencies[] = views
 dependencies[] = wysiwyg
 
 ; custom
+dependencies[] = germ_core
 dependencies[] = germ_features
 dependencies[] = wysiwyg_features
 
