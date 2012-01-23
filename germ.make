@@ -30,7 +30,7 @@ projects[serial][version] = 1.2
 projects[simplify][type] = module
 projects[simplify][download][type] = "git"
 projects[simplify][subdir] = "contrib"
-projects[simplify][download][url] = git://github.com/lakshminp/simplify.git
+projects[simplify][download][url] = git://github.com/druplug/simplify.git
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta5
