@@ -16,6 +16,7 @@ dependencies[] = filter
 dependencies[] = help
 dependencies[] = menu
 dependencies[] = node
+dependencies[] = number
 dependencies[] = path
 dependencies[] = rdf
 dependencies[] = search
