@@ -27,6 +27,7 @@ dependencies[] = user
 
 ; contrib modules
 dependencies[] = auto_nodetitle
+dependencies[] = ctools
 dependencies[] = date
 dependencies[] = date_popup
 dependencies[] = features
