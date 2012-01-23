@@ -16,6 +16,7 @@ function germ_install_tasks() {
  * Implements hook_install_tasks() callback
  */
 function germ_create_terms() {
+    // bug type
     $terms = array();
     $vocabulary = taxonomy_vocabulary_machine_name_load('type');
     $terms[] = 'Bug';
@@ -27,6 +28,20 @@ function germ_create_terms() {
         $term->name = $name;
         taxonomy_term_save($term);
     }
+
+    // bug status
+    $terms = array();
+    $vocabulary = taxonomy_vocabulary_machine_name_load('status');
+    $terms[] = 'Open';
+    $terms[] = 'In Progress';
+    $terms[] = 'Closed';
+    foreach ($terms as $name) {
+        $term = new stdClass();
+        $term->vid = $vocabulary->vid;
+        $term->name = $name;
+        taxonomy_term_save($term);
+    }
+    
     // create a sample project
     $node = new stdClass();
     $node->type = "project";
