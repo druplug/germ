@@ -24,8 +24,10 @@ projects[pathauto][version] = 1.0
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
 
-projects[serial][subdir] = contrib
-projects[serial][version] = 1.2 
+projects[serial][type] = module
+projects[serial][download][type] = "git"
+projects[serial][subdir] = "contrib"
+projects[serial][download][url] = git://github.com/druplug/serial.git
 
 projects[simplify][type] = module
 projects[simplify][download][type] = "git"
