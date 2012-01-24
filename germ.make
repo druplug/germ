@@ -4,7 +4,7 @@ core = 7.x
 api = 2
 
 ; fix for Entity's SelectQuery::fields(), see http://drupal.org/node/1158114#comment-4863562.
-projects[drupal][patch][] = http://drupal.org/files/issues/drupal.taxonomy_might_not_exist.patch
+; projects[drupal][patch][] = http://drupal.org/files/issues/drupal.taxonomy_might_not_exist.patch
 
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
