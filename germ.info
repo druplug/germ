@@ -14,6 +14,7 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = filter
 dependencies[] = help
+dependencies[] = image
 dependencies[] = menu
 dependencies[] = node
 dependencies[] = number
@@ -56,3 +57,4 @@ dependencies[] = germ_features
 dependencies[] = wysiwyg_features
 
 files[] = germ.profile
+
