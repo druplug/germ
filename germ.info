@@ -18,6 +18,7 @@ dependencies[] = menu
 dependencies[] = node
 dependencies[] = number
 dependencies[] = path
+dependencies[] = php
 dependencies[] = rdf
 dependencies[] = search
 dependencies[] = shortcut
@@ -30,11 +31,14 @@ dependencies[] = user
 dependencies[] = auto_nodetitle
 dependencies[] = ctools
 dependencies[] = date
+dependencies[] = entity
 dependencies[] = date_popup
 dependencies[] = features
 dependencies[] = jeditable
 dependencies[] = node_reference
 dependencies[] = pathauto
+dependencies[] = rules
+dependencies[] = rules_admin
 dependencies[] = simplify
 dependencies[] = serial
 dependencies[] = strongarm
@@ -42,8 +46,13 @@ dependencies[] = token
 dependencies[] = views
 dependencies[] = wysiwyg
 
+; development modules
+dependencies[] = devel
+dependencies[] = devel_generate
+
 ; custom
 dependencies[] = germ_core
 dependencies[] = germ_features
 dependencies[] = wysiwyg_features
 
+files[] = germ.profile

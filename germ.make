@@ -15,6 +15,9 @@ projects[ctools][version] = 1.0-rc1
 projects[date][subdir] = contrib
 projects[date][version] = 2.0-rc1
 
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.0-rc1
+
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-beta6
 
@@ -26,6 +29,9 @@ projects[pathauto][version] = 1.0
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
+
+projects[rules][subdir] = contrib
+projects[rules][version] = 2.0
 
 projects[serial][type] = module
 projects[serial][download][type] = "git"
@@ -64,6 +70,15 @@ projects[wysiwyg_features][type] = module
 projects[wysiwyg_features][download][type] = git
 projects[wysiwyg_features][subdir] = custom
 projects[wysiwyg_features][download][url] = git://github.com/druplug/wysiwyg_features.git
+
+
+; Development
+projects[devel][subdir] = dev
+projects[devel][version] = 1.2
+
+projects[simpletest][subdir] = dev
+projects[simpletest][version] = 2.0
+
 
 ; Libraries
 libraries[ckeditor][download][type] = get

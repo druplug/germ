@@ -42,6 +42,19 @@ function germ_create_terms() {
         taxonomy_term_save($term);
     }
     
+    // bug priority
+    $terms = array();
+    $vocabulary = taxonomy_vocabulary_machine_name_load('priority');
+    $terms[] = 'Low';
+    $terms[] = 'High';
+    $terms[] = 'Urgent';
+    foreach ($terms as $name) {
+        $term = new stdClass();
+        $term->vid = $vocabulary->vid;
+        $term->name = $name;
+        taxonomy_term_save($term);
+    }
+
     // create a sample project
     $node = new stdClass();
     $node->type = "project";
