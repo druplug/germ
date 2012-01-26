@@ -19,9 +19,9 @@ function germ_create_terms() {
     // bug type
     $terms = array();
     $vocabulary = taxonomy_vocabulary_machine_name_load('type');
-    $terms[] = 'Bug';
-    $terms[] = 'Task';
-    $terms[] = 'Deploy';
+    $terms[] = st('Bug');
+    $terms[] = st('Task');
+    $terms[] = st('Deploy');
     foreach ($terms as $name) {
         $term = new stdClass();
         $term->vid = $vocabulary->vid;
@@ -32,9 +32,9 @@ function germ_create_terms() {
     // bug status
     $terms = array();
     $vocabulary = taxonomy_vocabulary_machine_name_load('status');
-    $terms[] = 'Open';
-    $terms[] = 'In Progress';
-    $terms[] = 'Closed';
+    $terms[] = st('Open');
+    $terms[] = st('In Progress');
+    $terms[] = st('Closed');
     foreach ($terms as $name) {
         $term = new stdClass();
         $term->vid = $vocabulary->vid;
@@ -45,9 +45,9 @@ function germ_create_terms() {
     // bug priority
     $terms = array();
     $vocabulary = taxonomy_vocabulary_machine_name_load('priority');
-    $terms[] = 'Low';
-    $terms[] = 'High';
-    $terms[] = 'Urgent';
+    $terms[] = st('Low');
+    $terms[] = st('Normal');
+    $terms[] = st('Urgent');
     foreach ($terms as $name) {
         $term = new stdClass();
         $term->vid = $vocabulary->vid;
@@ -71,7 +71,7 @@ function germ_create_terms() {
     // create a sample roadmap          
     $node = new stdClass();
     $node->type = "roadmap";
-    $node->title = "Free Themes pahse 1";
+    $node->title = "Free Themes phase 1";
     $node->language = LANGUAGE_NONE;
     $node->uid = 1;
     $node->path = array('alias' => 'roadmap/free-themes');
