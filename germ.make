@@ -6,6 +6,9 @@ api = 2
 ; fix for Entity's SelectQuery::fields(), see http://drupal.org/node/1158114#comment-4863562.
 ; projects[drupal][patch][] = http://drupal.org/files/issues/drupal.taxonomy_might_not_exist.patch
 
+projects[activity][subdir] = contrib
+projects[activity][version] = 1.x-dev
+
 projects[auto_nodetitle][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 
@@ -86,3 +89,11 @@ libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEdi
 libraries[ckeditor][download][directory_name] = ckeditor
 libraries[ckeditor][download][destination] = libraries
 
+; Themes
+projects[ninesixty][subdir] = contrib
+projects[ninesixty][version] = 1.0
+
+projects[microbe][type] = theme
+projects[microbe][download][type] = git
+projects[microbe][subdir] = custom
+projects[microbe][download][url] = git://github.com/druplug/microbe.git

@@ -29,6 +29,7 @@ dependencies[] = toolbar
 dependencies[] = user
 
 ; contrib modules
+dependencies[] = activity
 dependencies[] = auto_nodetitle
 dependencies[] = ctools
 dependencies[] = date
@@ -44,6 +45,7 @@ dependencies[] = simplify
 dependencies[] = serial
 dependencies[] = strongarm
 dependencies[] = token
+dependencies[] = trigger
 dependencies[] = views
 dependencies[] = wysiwyg
 
